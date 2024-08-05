@@ -1,7 +1,7 @@
 // Simple Hello World (GLIBC)
 
-.global		_start
-.extern		printf
+.global	_start
+.extern	printf
 
 .data
 	string:	.asciz "Hello World!\n"

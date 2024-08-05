@@ -13,8 +13,9 @@ ASM:
 		https://sourceware.org/binutils/docs/as/Pseudo-Ops.html
 
 	STACK:
-		str x0, [sp, -8]! // Push
-		ldr x0, [sp, 8]!  // Pop
+		IMPORTANT: ARM64 stack need to be 16Bit Aligned!
+		str x0, [sp, -16]! // Push
+		ldr x0, [sp], #16  // Pop
 
 	HEAP:
 		.bss
