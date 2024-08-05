@@ -7,7 +7,7 @@ ASM:
 		.extern printf (C function)
 		LD:
 			as main.s -o main.o
-			ld main.o -o main -lc -lncurses --dynamic-linker /lib/ld-musl-aarch64.so.1
+			ld main.o -o main -lc -lncurses --dynamic-linker /lib/ld (Glibc)
 
 	AS COMMON DIR:
 		https://sourceware.org/binutils/docs/as/Pseudo-Ops.html
