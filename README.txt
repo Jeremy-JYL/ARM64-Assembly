@@ -29,5 +29,8 @@ ASM:
 	REG:
 		X8 - Call
 		X0 - X.. - ARGV / Return
-		
+
+	SYSCALL:
+		mov x8, SYSCODE
+		svc 0		
 
