@@ -10,7 +10,6 @@
 	_start:
 		ldr	x0, =string
 		bl printf
-		b exit
 
 	exit:
 		mov	x8, #93

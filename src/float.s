@@ -14,7 +14,6 @@
 		mov 	x1, #0
 	
 		bl 	printf
-		b	exit
 
 	exit:
 		mov	x8, #93
