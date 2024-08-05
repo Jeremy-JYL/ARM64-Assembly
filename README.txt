@@ -17,7 +17,7 @@ ASM:
 		ldr x0, [sp, 8]!  // Pop
 
 	HEAP:
-		.data
+		.bss
 			i: .int
 		.text
 		ldr x0, =i // Load ADDR
