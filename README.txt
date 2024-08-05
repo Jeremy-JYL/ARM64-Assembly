@@ -34,3 +34,6 @@ ASM:
 		mov x8, SYSCODE
 		svc 0		
 
+	USEFULL WEBSITE:
+		https://arm64.syscall.sh/
+
